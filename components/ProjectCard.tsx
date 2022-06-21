@@ -14,7 +14,6 @@ const ProjectCard: FunctionComponent<{
     category,
     deployed_url,
     description,
-    github_url,
     key_techs,
   },
 }) => {
@@ -55,6 +54,8 @@ const ProjectCard: FunctionComponent<{
               <a
                 href={github_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                target="_blank"
+                rel=noreferrer
               >
                 <AiFillGithub /> <span>Github</span>
               </a>

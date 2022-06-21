@@ -21,13 +21,13 @@ const SideBar = () => {
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green">Tiago</span> Garbi
+        <span className="text-red">Tiago</span> Garbi
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Full Stack Developer
       </p>
       <a
-        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
+        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 hover:bg-darkRed"
         href=""
         download="name"
       >
@@ -37,13 +37,23 @@ const SideBar = () => {
       {/* Social Icon */}
       {/* Adress */}
       <section>
-        <article className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-          <p className="flex items-center justify-center">
+        <article className="flex justify-around w-9/12 mx-auto my-5 text-darkRed md:w-full ">
+          <a
+            href="https://github.com/tiagogb21"
+            className="flex items-center justify-center"
+            target="_blank"
+            rel="noreferrer"
+          >
             <BsGithub className="w-8 h-8 cursor-pointer" />
-          </p>
-          <p className="flex items-center justify-center">
+          </a>
+          <a
+            href="https://www.google.com"
+            className="flex items-center justify-center"
+            target="_blank"
+            rel="noreferrer"
+          >
             <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
-          </p>
+          </a>
         </article>
         <article>
           <p className="flex items-center justify-center">
@@ -65,14 +75,14 @@ const SideBar = () => {
         <article>
           <button
             type="button"
-            className="w-8/12 px-5 py-2 my-4 bg-black rounded-full cursor-pointer text-gray bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
+            className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-darkRed focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
             onClick={() => window.open("mailto:tgbmateriais@gmail.com")}
           >
             Email Me
           </button>
           <button
             type="button"
-            className="w-8/12 px-5 py-2 my-4 bg-black rounded-full cursor-pointer text-gray bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
+            className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-darkRed focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
           >
             Toggle Theme
           </button>

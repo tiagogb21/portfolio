@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import avatar from "../image/image.png";
 
 import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
@@ -8,16 +6,22 @@ import { FaUserTie } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { IoIosPhonePortrait } from "react-icons/io";
 
+import Image from "next/image";
+
 const SideBar = () => {
   return (
     <aside>
       <Image
         src={avatar}
-        alt="user avatar"
-        className="w-32 h-32 mx-auto rounded-full"
+        alt="avatar"
+        className="mx-auto border rounded-full"
+        height="128px"
+        width="128px"
+        layout="intrinsic"
+        quality="100"
       />
-      <h3 className="my-4 text-3xl font-medium tracking-wider">
-        <span>Tiago</span> Garbi
+      <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
+        <span className="text-green">Tiago</span> Garbi
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Full Stack Developer
@@ -27,7 +31,7 @@ const SideBar = () => {
         href=""
         download="name"
       >
-        <FaUserTie className="w-6 h-6" />
+        <FaUserTie className="w-4 h-4 mr-2" />
         Download Resume
       </a>
       {/* Social Icon */}
@@ -59,8 +63,19 @@ const SideBar = () => {
           </p>
         </article>
         <article>
-          <button type="button">Email Me</button>
-          <button type="button">Toggle Theme</button>
+          <button
+            type="button"
+            className="w-8/12 px-5 py-2 my-4 bg-black rounded-full cursor-pointer text-gray bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
+            onClick={() => window.open("mailto:tgbmateriais@gmail.com")}
+          >
+            Email Me
+          </button>
+          <button
+            type="button"
+            className="w-8/12 px-5 py-2 my-4 bg-black rounded-full cursor-pointer text-gray bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
+          >
+            Toggle Theme
+          </button>
         </article>
       </section>
     </aside>

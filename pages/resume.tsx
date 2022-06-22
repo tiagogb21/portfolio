@@ -20,11 +20,18 @@ const Resume = () => {
           </div>
         </div>
         <div>
-          <h5 className="my-3 text-2xl font-bold">Experience</h5>
+          <h5 className="my-3 text-2xl font-bold">Experiência</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">Software Developer Jr.</h5>
-            <p className="font-semibold">Tata Consultancy Services</p>
-            <p className="my-3">I don't know why I am doing this job</p>
+            <h5 className="my-2 text-xl font-bold">
+              Professor particular de matemática
+            </h5>
+            <p className="my-3">
+              Ministrei aulas particulares para quase 100 alunos, em horários
+              flexíveis. Contribui com a realização do sonho de meus alunos,
+              entrar em uma universidade federal. Atuei com alunos do ensino
+              superior, ajudando-os a realizar o sonho de se formar na faculdade
+              de Licenciatura em Matemática.
+            </p>
           </div>
         </div>
       </div>

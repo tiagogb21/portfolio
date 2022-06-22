@@ -9,38 +9,39 @@ import { BsCircleFill } from "react-icons/bs";
 export const services: Service[] = [
   {
     Icon: RiComputerLine,
-    title: "Frontend Development",
+    title: "Desenvolvedor Frontend",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "Posso construir SPA bonitos e escaláveis usando <strong> HTML</strong>,<strong>CSS</strong> e <strong>React.js</strong> ",
   },
   {
     Icon: FaServer,
-    title: "Backend  Development",
+    title: "Desenvolvedor Backend",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "Posso lidar com banco de dados, servidor, api usando <b>Express </b> e outros frameworks populares",
   },
   {
     Icon: AiOutlineApi,
-    title: "API Development",
+    title: "Desenvolvedor API",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "Eu posso criar REST APIs robustas usando <strong>django-rest-api</strong> e <strong>Node API</strong> ",
   },
   {
     Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
+    title: "Desenvolvedor Competitivo",
+    about:
+      "Diariamente resolvo problemas no <strong>HackerRank</strong> e <strong>Leet Code</strong> ",
   },
   {
     Icon: AiOutlineAntDesign,
-    title: "UI/UX designer",
+    title: "Designer UI/UX",
     about:
-      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
+      "Designer de interfaces impressionantes usando <b>Figma</b> e <b>Framer</b> ",
   },
   {
     Icon: RiComputerLine,
-    title: "Whatever",
+    title: "Curiosidade",
     about:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
+      "Estou sempre buscando ter conhecimento sobre novas tecnologias e aperfeiçoar as que já aprendi.",
   },
 ];
 

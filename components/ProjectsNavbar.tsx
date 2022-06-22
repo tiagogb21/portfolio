@@ -7,7 +7,7 @@ export const NavItem: FunctionComponent<{
   active: string;
 }> = ({ value, handlerFilterCategory, active }) => {
   let className = "capitalize cursor-pointer hover:text-orange";
-  if (active === value) className += " text-green";
+  if (active === value) className += " text-orange";
 
   return (
     <li className={className} onClick={() => handlerFilterCategory(value)}>

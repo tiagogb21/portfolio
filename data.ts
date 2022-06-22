@@ -114,7 +114,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
+    image_path: "",
     deployed_url: "https://visual-algorithm.web.app/",
     github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
     category: ["react"],
@@ -176,7 +176,7 @@ export const projects: IProject[] = [
   },
   {
     name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
+    image_path: "",
     deployed_url: "https://not-utube.web.app/",
     github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
     category: ["express"],
@@ -193,7 +193,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Football App",
-    image_path: "/images/football.png",
+    image_path: "",
     deployed_url: "https://o-my-goal.web.app/",
     github_url: "https://github.com/Dey-Sumit/football-app",
     category: ["react"],

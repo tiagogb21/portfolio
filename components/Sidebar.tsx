@@ -6,9 +6,17 @@ import { FaUserTie } from "react-icons/fa";
 import { GoLocation } from "react-icons/go";
 import { IoIosPhonePortrait } from "react-icons/io";
 
+import { useTheme } from "next-themes";
+
 import Image from "next/image";
 
 const SideBar = () => {
+  const { theme, setTheme } = useTheme();
+
+  const changeTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
   return (
     <aside>
       <Image
@@ -82,6 +90,7 @@ const SideBar = () => {
           </button>
           <button
             type="button"
+            onClick={changeTheme}
             className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-darkRed focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
           >
             Toggle Theme

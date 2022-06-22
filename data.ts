@@ -41,7 +41,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Curiosidade",
     about:
-      "Estou sempre buscando ter conhecimento sobre novas tecnologias e aperfeiçoar as que já aprendi.",
+      "Estou sempre buscando ter conhecimento sobre novas tecnologias e aperfeiçoar as já aprendidas.",
   },
 ];
 
@@ -49,31 +49,46 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "45",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
     name: "Java Script",
-    level: "60",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
-    name: "React Native",
+    name: "Typescript",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Java",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "PHP",
     level: "80",
   },
   {
     Icon: BsCircleFill,
     name: "React",
-    level: "70",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "Django",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
+    name: "Next",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Vue",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Django",
     level: "80",
   },
 ];
@@ -81,23 +96,28 @@ export const languages: Skill[] = [
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
+    name: "Git",
+    level: "90",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
+    name: "heroku",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
+    name: "Docker",
+    level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+    name: "figma",
+    level: "80",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "linux",
+    level: "80",
   },
 ];
 

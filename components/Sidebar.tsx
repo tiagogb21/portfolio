@@ -1,5 +1,3 @@
-import avatar from "../image/image.png";
-
 import { AiOutlineMail, AiFillLinkedin } from "react-icons/ai";
 import { BsGithub } from "react-icons/bs";
 import { FaUserTie } from "react-icons/fa";
@@ -20,7 +18,7 @@ const SideBar = () => {
   return (
     <aside>
       <Image
-        src={avatar}
+        src="/images/image.png"
         alt="avatar"
         className="mx-auto border rounded-full"
         height="128px"
@@ -83,7 +81,7 @@ const SideBar = () => {
         <article>
           <button
             type="button"
-            className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-darkRed focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
+            className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-orange focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
             onClick={() => window.open("mailto:tgbmateriais@gmail.com")}
           >
             Email Me
@@ -91,7 +89,7 @@ const SideBar = () => {
           <button
             type="button"
             onClick={changeTheme}
-            className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-darkRed focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
+            className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-orange focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
           >
             Toggle Theme
           </button>

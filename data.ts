@@ -9,62 +9,61 @@ import { BsCircleFill } from "react-icons/bs";
 export const services: Service[] = [
   {
     Icon: RiComputerLine,
-    title: "Desenvolvedor Frontend",
+    title: "Frontend Development",
     about:
-      "Posso construir um site bonito e escalável usando <strong> HTML</strong>,<strong>CSS</strong> e <strong>React.js</strong> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
   },
   {
     Icon: FaServer,
-    title: "Desenvolvedor Backend",
+    title: "Backend  Development",
     about:
-      "Posso trabalhar com banco de dados e apis. Ter controle sobre um servidor, utilizando <strong>Express </strong> e outros frameworks populares",
+      "handle database, server, api using <b>Express </b> & other popular frameworks",
   },
   {
     Icon: AiOutlineApi,
-    title: "Desenvolvedor de API",
+    title: "API Development",
     about:
-      "Eu posso desenvolver uma API REST usando <strong>django-rest-api</strong> & <strong>Node API</strong> ",
+      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
   },
   {
     Icon: MdDeveloperMode,
-    title: "Desenvolvedor Competitivo",
-    about:
-      "Tenho como hobby resolver desafios diários no <a href='https://leetcode.com/' target='_blank'><strong>Leet Code</strong></a> e <a href='https://www.hackerrank.com/create-account/' target='_blank'><strong>HackerRank</strong> ",
+    title: "Competitive Coder",
+    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
   },
   {
     Icon: AiOutlineAntDesign,
     title: "UI/UX designer",
     about:
-      "Posso construir uma impressionante interface de usuário <strong>Figma</strong> e <strong>Framer</strong> ",
+      "stunning user interface designer using <b>Figma</b>  and  <b>Framer</b> ",
   },
   {
     Icon: RiComputerLine,
-    title: "Outras habilidades",
+    title: "Whatever",
     about:
-      "Estou constantemente aprendendo novas tecnologias e me aperfeiçoando naquelas que já tenho conhecimento",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
   },
 ];
 
 export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "90",
-  },
-  {
-    Icon: BsCircleFill,
     name: "Python",
-    level: "90",
+    level: "45",
   },
   {
     Icon: BsCircleFill,
-    name: "Java",
+    name: "Java Script",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "React Native",
     level: "80",
   },
   {
     Icon: BsCircleFill,
-    name: "PHP",
-    level: "80",
+    name: "React",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
@@ -73,7 +72,7 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "React",
+    name: "Bootstrap",
     level: "80",
   },
 ];
@@ -114,7 +113,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Algorithm Visualizer",
-    image_path: "",
+    image_path: "/images/algoVisual.png",
     deployed_url: "https://visual-algorithm.web.app/",
     github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
     category: ["react"],
@@ -176,7 +175,7 @@ export const projects: IProject[] = [
   },
   {
     name: "YouTube using YouTube ",
-    image_path: "",
+    image_path: "/images/youtubeClone.png",
     deployed_url: "https://not-utube.web.app/",
     github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
     category: ["express"],
@@ -193,7 +192,7 @@ export const projects: IProject[] = [
   },
   {
     name: "Football App",
-    image_path: "",
+    image_path: "/images/football.png",
     deployed_url: "https://o-my-goal.web.app/",
     github_url: "https://github.com/Dey-Sumit/football-app",
     category: ["react"],

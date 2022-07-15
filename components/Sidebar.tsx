@@ -30,7 +30,7 @@ const SideBar = () => {
         <span className="text-red">Tiago</span> Garbi
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-        Full Stack Developer
+        Desenvolvedor Full Stack
       </p>
       <a
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 hover:bg-darkRed"
@@ -38,7 +38,7 @@ const SideBar = () => {
         download="name"
       >
         <FaUserTie className="w-4 h-4 mr-2" />
-        Download Resume
+        Download Currículo
       </a>
       {/* Social Icon */}
       {/* Adress */}
@@ -84,14 +84,14 @@ const SideBar = () => {
             className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-orange focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
             onClick={() => window.open("mailto:tgbmateriais@gmail.com")}
           >
-            Email Me
+            Email
           </button>
           <button
             type="button"
             onClick={changeTheme}
             className="w-8/12 px-5 py-2 my-4 rounded-full cursor-pointer text-white bg-orange focus:outline-none hover:scale-105 font-bold	font-weight: 700;"
           >
-            Toggle Theme
+            Mudar Tema
           </button>
         </article>
       </section>

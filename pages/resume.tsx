@@ -7,9 +7,11 @@ const Resume = () => {
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
         <div>
-          <h5 className="my-3 text-2xl font-bold">Education</h5>
+          <h5 className="my-3 text-2xl font-bold">Educação</h5>
           <div className="">
-            <h5 className="my-2 text-xl font-bold">Full Stack Web Developer</h5>
+            <h5 className="my-2 text-xl font-bold">
+              Desenvolvedor Full Stack Web
+            </h5>
             <p className="font-semibold">Trybe (2021/atual)</p>
             <p className="my-3">
               O programa conta com <strong>mais de 1.500 horas</strong> de aulas
